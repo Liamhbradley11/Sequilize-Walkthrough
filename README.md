@@ -1,4 +1,4 @@
-# Sequilize-Walkthrough
+# Sequelize-Walkthrough
 
  This application is a basic application where the user is prompted to a sign up form where they are given the option to either log in or sign up.  If the user already has an account they can opt for the log-in option and if they don’t they can create one with an email and password.  Once the information is entered they then click sign up where they are sent to a welcome page that shows their email on the page and the option to log out.
 
