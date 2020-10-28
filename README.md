@@ -4,9 +4,10 @@
 
 ## Table of Contents
   * [Installation](#installation)
-  * [Useage](#usage)
+  * [Getting Started](#gettingstarted)
   * [Technologies Used](#Technologies)
-  * [Demo](#demo)
+  * [Tutorial](#Tutorial)
+  * [Visuals](#Visuals)
   * [License](#license)
   * [Contributers](#contributers)
   * [Questions](#questions)
@@ -14,10 +15,11 @@
 ## Installation
     npm install 
     npm init -y
-    npm i express express-session myql2 sequeilize
+    npm i express express-session 
+    npm i msql2 sequeilize
 
-  ## Usage
-  After running npm install the user will have to then run node app.js. Following that, the user will answer a few prompted commands with their information. Once completed the html file will be generated and added as a file.
+  ## Getting Started
+  After running npm install and installing everything you will then need to create a database.  Open mySQL workbench to host your queries.  You will create a new database, passport_demo.  Run, refresh and save.  You will then need to make sure that that your password is correct in the config.json.  This will allow it to connect to the database.  Run node server.js to open up the localhost with the port you chose to run it on.
 
   ## Technologies
 * Javascript
@@ -30,11 +32,12 @@
 * Express-sessions
 * Bcrypt.js
 
-  ## Visuals
-  ![alt text](https://i.paste.pics/b8b6f61f694a711af4670e03cef33e8f.png)
+  ## Tutorial
+  To view an indepth tutorial of what the code is doing please click [HERE](https://docs.google.com/document/d/1S9nijrDgOE9EwbT3Oj08IibDVrqTT5zUFPc7NPfkTRY/edit?usp=sharing).
 
-  ## Demo
-  Click [HERE](https://drive.google.com/file/d/1UDz0z_IrK7chqWFQ03-HE-GrzdMkOOpK/view) for a video tutorial of the application.
+  ## Visuals
+  ![alt text](https://i.paste.pics/208f490855fa086cf76bb7619b379e24.png)    
+  ![alt text](https://i.paste.pics/88c37d09462f02efc987118a8e4264c3.png)
 
   ## License
    [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
@@ -42,5 +45,9 @@
   ## Contributers
   Contact me.
 
-  ## Questions
-  Please contact me at <liamhbradley11@gmail.com>. You can also find more of my work at [liamhbradley11](https://github.com/liamhbradley11).
+## Questions
+  Please contact me via email:
+  * <liamhbradley11@gmail.com>
+
+  You can also find more of my work on my
+  * [Github](https://github.com/liamhbradley11) account
