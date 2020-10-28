@@ -5,7 +5,7 @@
 ## Table of Contents
   * [Installation](#installation)
   * [Getting Started](#getting-started)
-  * [Technologies Used](#Technologies)
+  * [Technologies](#Technologies)
   * [Tutorial](#Tutorial)
   * [Visuals](#Visuals)
   * [License](#license)
