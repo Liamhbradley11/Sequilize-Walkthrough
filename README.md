@@ -4,7 +4,7 @@
 
 ## Table of Contents
   * [Installation](#installation)
-  * [Getting Started](#gettingstarted)
+  * [Getting Started](#getting-started)
   * [Technologies Used](#Technologies)
   * [Tutorial](#Tutorial)
   * [Visuals](#Visuals)
@@ -17,8 +17,9 @@
     npm init -y
     npm i express express-session 
     npm i msql2 sequeilize
+    npm i bcryptjs passport passport-local
 
-  ## Getting Started
+  ## Getting-Started
   After running npm install and installing everything you will then need to create a database.  Open mySQL workbench to host your queries.  You will create a new database, passport_demo.  Run, refresh and save.  You will then need to make sure that that your password is correct in the config.json.  This will allow it to connect to the database.  Run node server.js to open up the localhost with the port you chose to run it on.
 
   ## Technologies
